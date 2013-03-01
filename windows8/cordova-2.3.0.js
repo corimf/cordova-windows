@@ -6028,7 +6028,7 @@ module.exports = {
         }
 
         setTimeout(function () {
-            win({ platform: "windows8", version: "8", name: name, uuid: deviceId, cordova: "2.2.0" });
+            win({ platform: "windows8", version: "8", name: name, uuid: deviceId, cordova: "2.3.0" });
         }, 0);
     }
 
