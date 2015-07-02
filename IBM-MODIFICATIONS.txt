@@ -1,0 +1,8 @@
+Script permission bits not enabled for Windows scripts on OSX/Linux
+
+- Apache Cordova Jira issue: https://github.com/corimf/cordova-windows/commit/030be05e7fc83408bcf5a74f05ab7a0a6ca335aa
+- Markmail / Google Group / StackOverflow reference:
+- IBM PMR: 
+- Worklight RTC work item number: Defect 69920
+- Cherry-pick: 030be05e7fc83408bcf5a74f05ab7a0a6ca335aa
+- Full description: windows bin scripts are not executable on Linux/OSX so you get an error when you try to add the windows platform to a project even though you should be able to add it, and just not run the project for that platform
